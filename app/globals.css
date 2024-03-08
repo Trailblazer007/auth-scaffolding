@@ -3,3 +3,18 @@
 @tailwind utilities;
 
 
+.hero-image {
+  background: url("../public/images/rectangle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 60vh;
+  position: fixed;
+  inset: 0;
+
+}
+
+.min-h-screen {
+  position: relative;
+}
+
