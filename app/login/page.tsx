@@ -10,14 +10,14 @@ export default function Home() {
           <h1 className="font-bold text-3xl">myApp</h1>
 
           <Link className="border-2 border-black p-2 px-6" href="./logIn">
-            Login
+            Sign Up
           </Link>
         </div>
       </div>
 
       <div className="relative max-w-xl p-8 px-24 bg-white mx-auto mt-32 shadow-2xl">
         <div>
-          <p className="font-bold text-2xl text-center py-4">Sign Up</p>
+          <p className="font-bold text-2xl text-center py-4">Login</p>
           <form className="mt-14" action="">
             <div className="">
               <div className="border border-gray-300 p-4 focus-within:border-black">
@@ -32,21 +32,6 @@ export default function Home() {
               <div className="flex justify-between items-center border border-gray-300 p-4 focus-within:border-black">
                 <div>
                   <p className="pb-2 text-xs uppercase">Password:</p>
-                  <input
-                    className="outline-none "
-                    type="text"
-                    placeholder="**********"
-                  />
-                </div>
-
-                <div className="hover:cursor-pointer">
-                  <IoMdEye />
-                </div>
-              </div>
-
-              <div className="flex justify-between items-center border border-gray-300 p-4 focus-within:border-black">
-                <div>
-                  <p className="pb-2 text-xs uppercase">Confirm Password:</p>
                   <input
                     className="outline-none "
                     type="text"
