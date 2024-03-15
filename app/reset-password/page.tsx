@@ -13,26 +13,12 @@ export default function Home() {
           <form className="mt-14" action="">
             <div className="">
               <div className="border border-gray-300 p-4 focus-within:border-black">
-                <p className="pb-2 text-xs uppercase">New pasword:</p>
+                <p className="pb-2 text-xs uppercase">Email address:</p>
                 <input
                   className="outline-none"
-                  type="password"
-                  placeholder=""
+                  type="text"
+                  placeholder="johndoe@gmail.com"
                 />
-              </div>
-
-              <div className="border border-gray-300 p-4 focus-within:border-black">
-                <p className="pb-2 text-xs uppercase">Confirm New pasword:</p>
-                <input
-                  className="outline-none"
-                  type="password"
-                  placeholder=""
-                />
-              </div>
-
-              <div className="border border-gray-300 p-4 focus-within:border-black">
-                <p className="pb-2 text-xs uppercase">Reset Code:</p>
-                <input className="outline-none" type="" placeholder="" />
               </div>
 
               <button className="w-full my-2 p-5 bg-black text-white uppercase">
